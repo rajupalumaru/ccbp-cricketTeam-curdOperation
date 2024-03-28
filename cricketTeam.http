@@ -1,0 +1,28 @@
+
+
+GET http://localhost:3000/players/
+
+GET  http://localhost:3000/players/5/
+
+
+POST http://localhost:3000/players/
+Content-Type: application/json
+
+{
+  "player_Name": "RajuPalumaru",
+  "jersey_Number": 17,
+  "role": "Bowler"
+}
+
+
+PUT http://localhost:3000/players/12/
+Content-Type: application/json
+
+{
+  "player_Name": "RajuPalumaru1",
+  "jersey_Number": 117,
+  "role": "Bowler"
+}
+
+
+DELETE  http://localhost:3000/players/5/
